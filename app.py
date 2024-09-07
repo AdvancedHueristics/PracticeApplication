@@ -8,12 +8,12 @@ from dotenv import load_dotenv
 load_dotenv()  # take environment variables from .env.
 
 st.set_page_config(page_icon="💬", layout="wide",
-                   page_title="Streamlit-groq test")
+                   page_title="Matt chat app!")
 
 
 
 
-st.subheader("Groq Chat Streamlit App",  anchor=False)
+st.subheader("Matt first chat Application",  anchor=False)
 st.text("near real-time responses")
 
 client = Groq(
